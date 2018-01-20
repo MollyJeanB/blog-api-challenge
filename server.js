@@ -3,7 +3,7 @@ const morgan = require("morgan");
 
 const app = express();
 
-const blogPostsRouter = "./blogPostsRouter";
+const blogPostsRouter = require("./blogPostsRouter");
 
 app.use(morgan("common"));
 
