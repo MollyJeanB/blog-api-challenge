@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const jsonParser = bodyParser.json();
 
 const { BlogPosts } = require("./models");
-debugger;
 
 //sample starter data
 BlogPosts.create(
